@@ -1,0 +1,31 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFE226;
+}
+
+header img {
+    width: 75px;
+}
+
+header .links {
+    display: flex;
+    gap: 10px;
+}
+
+header .links .link {
+    text-decoration: none;
+    color: black;
+}
+
+header .links .link:hover {
+    text-decoration: underline;
+    transition: 1s all ease-in-out;
+    cursor: pointer;
+}
