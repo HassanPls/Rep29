@@ -1,0 +1,106 @@
+{
+    "members": [
+        {
+            "name": "Tenda",
+            "year": "2023",
+            "course": "Eng. Aeronaútica",
+            "img": "Tenda.png"
+        },
+        {
+            "name": "Sansão",
+            "year": "2024",
+            "course": "Eng. Materiais",
+            "img": "Sansao.png"
+        },
+        {
+            "name": "Cascão",
+            "year": "2024",
+            "course": "Eng. Aeronaútica",
+            "img": "Cascao.png"
+        },
+        {
+            "name": "Alexo",
+            "year": "2024",
+            "course": "Eng. Civil",
+            "img": "Alexo.png"
+        },
+        {
+            "name": "Cebola",
+            "year": "2024",
+            "course": "Eng. Civil",
+            "img": "Cebola.png"
+        },
+        {
+            "name": "Aquiles",
+            "year": "2025",
+            "course": "Cien. Computação",
+            "img": "Aquiles.png"
+        },
+        {
+            "name": "Kuduro",
+            "year": "2025",
+            "course": "Eng. Ambiental",
+            "img": "Kuduro.png"
+        },
+        {
+            "name": "Mítico",
+            "year": "2025",
+            "course": "Eng. Civil",
+            "img": "Mitico.png"
+        },
+        {
+            "name": "Pesca",
+            "year": "2025",
+            "course": "Eng. Materiais",
+            "img": "Pesca.png"
+        },
+        {
+            "name": "Casquinha",
+            "year": "2025",
+            "course": "Eng. Materiais",
+            "img": "Casquinha.png"
+        },
+        {
+            "name": "Nudes",
+            "year": "2025",
+            "course": "Eng. Mecatrônica",
+            "img": "Nudes.png"
+        },
+        {
+            "name": "Pacu",
+            "year": "2025",
+            "course": "Fis. Biomolecular",
+            "img": "Pacu.png"
+        },
+        {
+            "name": "Confia",
+            "year": "2025",
+            "course": "Eng. Elétrica",
+            "img": "Confia.png"
+        },
+        {
+            "name": "PM",
+            "year": "2026",
+            "course": "Mat. Aplicada",
+            "img": "PM.png"
+        },
+        {
+            "name": "Shelly",
+            "year": "2026",
+            "course": "Estatística",
+            "img": "Shelly.png"
+        },
+        {
+            "name": "Ba-chan",
+            "year": "2026",
+            "course": "Eng. Materiais",
+            "img": "Ba-chan.png"
+        },
+        {
+            "name": "Pedágio",
+            "year": "2026",
+            "course": "Enfermagem",
+            "img": "Pedagio.png"
+        }
+    ]
+}

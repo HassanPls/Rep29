@@ -17,6 +17,7 @@ section#localizacao .info {
   width: 90%;
   height: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
 }
@@ -24,6 +25,7 @@ section#localizacao .info {
 .map {
   width: 100%;
   max-width: 800px;
+  min-height: 400px;
   border-radius: 20px;
   overflow: hidden;
   border: 1px solid rgba(0, 0, 0, 0.05);

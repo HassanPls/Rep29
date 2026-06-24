@@ -9,9 +9,30 @@ section#moradores {
   color: white;
 }
 
-/* Configuração do Card Frente */
+#members {
+  width: 90%;
+  overflow-x: auto;
+  padding: 15px 5px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+#members::-webkit-scrollbar {
+  height: 6px; 
+}
+
+#members::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+#members::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2); 
+  border-radius: 10px;
+}
+
 .member-card {
-  width: 280px;
+  min-width: 280px;
   height: 380px;
   background: linear-gradient(135deg, #1e1e24 0%, #111115 100%);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -28,13 +49,11 @@ section#moradores {
   overflow: hidden;
 }
 
-/* Efeito sutil ao passar o mouse antes de você aplicar o giro de 3d */
 .member-card:hover {
   border-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 15px 35px rgba(255, 255, 255, 0.03);
 }
 
-/* Container da Foto (Destaque Máximo) */
 .member-photo-container {
   width: 100%;
   height: 200px;
@@ -47,30 +66,27 @@ section#moradores {
 .member-photo {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Não distorce a foto do morador */
+  object-fit: cover; 
   transition: transform 0.5s ease;
 }
 
-/* Zoom elegante na foto ao passar o mouse */
 .member-card:hover .member-photo {
   transform: scale(1.05);
 }
 
-/* Área de Textos */
 .member-info {
   width: 100%;
   text-align: center;
-  font-family: 'Inter', sans-serif, system-ui; /* Fonte limpa */
+  font-family: 'Inter', sans-serif, system-ui;
   margin-top: 16px;
 }
 
-/* Ano de Curso (Estilo Tag/Badge) */
 .member-year {
   display: inline-block;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #a1a1aa; /* Cinza claro */
+  color: #a1a1aa; 
   background: rgba(255, 255, 255, 0.05);
   padding: 4px 10px;
   border-radius: 20px;
@@ -78,7 +94,6 @@ section#moradores {
   font-weight: 600;
 }
 
-/* Nome do Integrante */
 .member-name {
   font-size: 1.4rem;
   color: #ffffff;
@@ -87,15 +102,13 @@ section#moradores {
   letter-spacing: -0.5px;
 }
 
-/* Curso */
 .member-course {
   font-size: 0.9rem;
-  color: #94a3b8; /* Azul acinzentado elegante */
+  color: #94a3b8; 
   margin: 0;
   font-weight: 400;
 }
 
-/* Detalhe estético: Uma linha brilhante no topo do card (opcional) */
 .member-card::before {
   content: "";
   position: absolute;

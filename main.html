@@ -15,7 +15,14 @@
   <body>
     <header id="header_banner">
       <img src="./src/img/replogo.png" alt="logo" />
-      <div class="links">
+
+      <button class="menu-toggle" id="menu_toggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="links" id="nav_links">
         <a class="link" href="#inicio">Início</a>|
         <a class="link" href="#apresentacao">Apresentação</a>|
         <a class="link" href="#localizacao">Localização</a>|
@@ -122,37 +129,7 @@
       </section>
       <section id="moradores">
         <h2>Moradores atuais</h2>
-        <div class="member-card">
-          <div class="member-photo-container">
-            <img
-              src="./src/img/moradores/aquiles.jpg"
-              alt="Foto do Integrante"
-              class="member-photo"
-            />
-          </div>
-
-          <div class="member-info">
-            <span class="member-year">2025</span>
-            <h3 class="member-name">Aquiles Silva</h3>
-            <p class="member-course">Ciência da Computação</p>
-          </div>
-        </div>
-        <h2>Ex moradores</h2>
-        <div class="member-card">
-          <div class="member-photo-container">
-            <img
-              src="./src/img/moradores/aquiles.jpg"
-              alt="Foto do Integrante"
-              class="member-photo"
-            />
-          </div>
-
-          <div class="member-info">
-            <span class="member-year">2025</span>
-            <h3 class="member-name">Aquiles Silva</h3>
-            <p class="member-course">Ciência da Computação</p>
-          </div>
-        </div>
+        <div id="members"></div>
       </section>
       <section id="faq">
         <h2>Perguntas Frequentes</h2>
@@ -254,7 +231,14 @@
         (19) 9999-9999 <br />
         (19) 9999-9999
       </div>
-      <div><b>Siga a gente no Instagram!</b></div>
+      <div>
+        <b
+          >Siga a gente no
+          <a href="https://www.instagram.com/republica29/" target="_blank"
+            >Instagram!</a
+          ></b
+        >
+      </div>
       <div>
         <b>Desenvolvido por:</b> <br />
 
@@ -262,8 +246,9 @@
         PM - Design & Programação <br />
       </div>
     </footer>
-    <script src="./src/js/projeto.js"></script>
     <script src="./src/js/localBenefits.js"></script>
     <script src="./src/js/carroselLar.js"></script>
+    <script src="./src/js/cardMembers.js"></script>
+    <script src="./src/js/navBar.js"></script>
   </body>
 </html>

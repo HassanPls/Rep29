@@ -8,3 +8,12 @@ footer {
     align-items: center;
     background-color: #FFE226;
 }
+
+@media screen and (max-width: 900px) {
+    footer {
+        flex-direction: column;
+        height: auto;     
+        gap: 20px;      
+        padding: 40px 20px; 
+    }
+}
