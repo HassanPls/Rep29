@@ -1,52 +1,72 @@
 section#apresentacao {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: column;
-  gap: 10px;
-  padding: 30px 0;
+  padding: 90px 20px;
+  color: #000;
 }
 
 section#apresentacao h2 {
-  margin-bottom: 30px;
-  font-size: xx-large;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  position: relative;
+}
+
+section#apresentacao h2::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background-color: #FFE226;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
 }
 
 section#apresentacao .info {
   width: 100%;
-  padding: 0 20px;
+  max-width: 1200px;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 60px;
   flex-wrap: wrap;
-  text-align: justify;
-  gap: 50px;
-}
-
-section#apresentacao .info img {
-  max-width: 500px;
-  width: 100%;    
-  height: auto;
-  object-fit: cover;
-  border: 1px solid #f1f5f9;
-  border-radius: 20px;
-  box-shadow:
-    0 4px 6px -1px rgba(0, 0, 0, 0.05),
-    0 10px 15px -3px rgba(0, 0, 0, 0.03);
-  transition:
-    transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
-    box-shadow 0.4s ease;
-}
-
-section#apresentacao .info img:hover {
-  transform: translateY(-8px);
-  box-shadow:
-    0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 section#apresentacao .info p {
+  flex: 1;
+  min-width: 320px;
+  max-width: 550px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #000;
+  text-align: justify;
+  margin: 0;
+}
+
+section#apresentacao .info p br {
+  margin-bottom: 10px;
+}
+
+section#apresentacao .info img {
+  flex: 1;
+  min-width: 320px;
   max-width: 500px;
-  width: 100%; 
-  margin: 0;   
+  width: 100%;    
+  height: 350px;
+  object-fit: cover;
+  border: 2px solid rgba(255, 226, 38, 0.2); 
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+section#apresentacao .info img:hover {
+  transform: scale(1.02) translateY(-6px);
+  border-color: #FFE226;
+  box-shadow: 0 30px 60px rgba(255, 226, 38, 0.1);
 }

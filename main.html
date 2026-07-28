@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./src/css/FAQ.css" />
     <link rel="stylesheet" href="./src/css/footer.css" />
     <link rel="stylesheet" href="./src/css/projeto.css" />
+    <link rel="stylesheet" href="./src/css/game.css" />
   </head>
   <body>
     <header id="header_banner">
@@ -23,11 +24,11 @@
       </button>
 
       <div class="links" id="nav_links">
-        <a class="link" href="#inicio">Início</a>|
-        <a class="link" href="#apresentacao">Apresentação</a>|
-        <a class="link" href="#localizacao">Localização</a>|
-        <a class="link" href="#lar">Fotos da casa</a>|
-        <a class="link" href="#moradores">Moradores</a>|
+        <a class="link" href="#inicio">Início</a>
+        <a class="link" href="#apresentacao">Apresentação</a>
+        <a class="link" href="#localizacao">Localização</a>
+        <a class="link" href="#lar">Fotos da casa</a>
+        <a class="link" href="#moradores">Moradores</a>
         <a class="link" href="#faq">FAQ</a>
       </div>
     </header>
@@ -67,6 +68,89 @@
             da vida.
           </p>
           <img src="./src/img/apresentacao.jpg" alt="República 29" />
+        </div>
+      </section>
+      <section id="projeto-jogo">
+        <div class="jogo-container">
+          <div class="jogo-info">
+            <span class="jogo-badge">Navegador & Mobile</span>
+            <h2 class="jogo-titulo">Aventura na 29</h2>
+            <p class="jogo-descricao">
+              Entre no nosso universo pixelado! Ajude a
+              <strong>Marola</strong> a explorar cada canto da nossa casa,
+              desviar de obstáculos do dia a dia universitário e descobrir os
+              segredos que fazem da República 29 o melhor lugar de São Carlos.
+            </p>
+
+            <ul class="jogo-features">
+              <li>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Inspirado na nossa verdadeira casa
+              </li>
+              <li>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Mecânicas fluidas e divertidas
+              </li>
+              <li>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Jogue direto pelo navegador
+              </li>
+            </ul>
+
+            <a href="./game/index.html" class="btn-jogar">
+              <span>Jogar Agora</span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+            </a>
+          </div>
+
+          <div class="jogo-preview">
+            <div class="preview-card">
+              <img
+                src="./src/img/game-preview.png"
+                alt="Aventura na 29 Preview"
+                class="preview-media"
+              />
+              <div class="preview-overlay">
+                <span class="preview-tag">Disponível Grátis</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section id="localizacao">
@@ -144,7 +228,7 @@
                   Custa menos da metade do valor de um aluguel de apartamento
                   individual em São Carlos.
                 </li>
-                <li>Mensalidade fixa de 600 reais.</li>
+                <li>Mensalidade variável de 600 reais.</li>
                 <li>
                   Contas essenciais de água, luz, internet e esgoto já estão
                   totalmente inclusas no valor.
@@ -217,9 +301,6 @@
             </div>
           </details>
         </div>
-      </section>
-      <section>
-        <h2>Jogo</h2>
       </section>
     </main>
 
