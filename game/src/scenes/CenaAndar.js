@@ -1,4 +1,4 @@
-import { sortearNovoOvo } from "../utils/ovoManager.js";
+import { sortearNovoOvo } from "../utils/OvoManager.js";
 
 export default class CenaAndar extends Phaser.Scene {
   constructor(key) {
