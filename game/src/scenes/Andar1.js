@@ -10,7 +10,7 @@ export default class Andar1 extends CenaAndar {
   }
 
   preload() {
-    this.load.image("tiles_imagem", "assets/Casa/tileset_casa.png");
+    this.load.image("tiles_imagem", "assets/Casa/Tileset_casa.png");
     this.load.tilemapTiledJSON("mapa_andar1", "assets/Casa/mapa_casa.json");
     this.load.spritesheet(
       "player_spritesheet",

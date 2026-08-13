@@ -11,6 +11,7 @@ export default class Andar2 extends CenaAndar {
 
   preload() {
     this.load.tilemapTiledJSON("mapa_casa2", "assets/Casa/mapa_casa2.json");
+    this.load.image("tiles_imagem", "assets/Casa/Tileset_casa.png");
     this.load.image("ovo_imagem", "assets/ovo.png");
     this.load.audio("som_ovo", "assets/ovo_som.mp3");
     this.load.image("seta_imagem", "assets/seta-0001.png");
@@ -25,7 +26,7 @@ export default class Andar2 extends CenaAndar {
     this.cameras.main.fadeIn(400, 0, 0, 0);
 
     const mapa = this.make.tilemap({ key: "mapa_casa2" });
-    const tileset = mapa.addTilesetImage("Tileset_casa", "tiles_imagem");
+    const tileset = mapa.addTilesetImage("tileset_casa", "tiles_imagem");
 
     mapa.createLayer("chao", tileset, 0, 0);
     mapa.createLayer("moveis", tileset, 0, 0);
